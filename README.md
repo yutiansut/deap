@@ -3,7 +3,7 @@
 [![Build status](https://travis-ci.org/DEAP/deap.svg?branch=master)](https://travis-ci.org/DEAP/deap) [![Download](https://img.shields.io/pypi/dm/deap.svg)](https://pypi.python.org/pypi/deap) [![Join the chat at https://gitter.im/DEAP/deap](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/DEAP/deap?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 DEAP is a novel evolutionary computation framework for rapid prototyping and testing of 
-ideas. It seeks to make algorithms explicit and data structures transparent. It works in perfect harmony with parallelisation mechanism such as multiprocessing and [SCOOP](http://pyscoop.org).
+ideas. It seeks to make algorithms explicit and data structures transparent. It works in perfect harmony with parallelisation mechanisms such as multiprocessing and [SCOOP](http://pyscoop.org).
 
 DEAP includes the following features:
 
@@ -19,7 +19,7 @@ DEAP includes the following features:
   * Hall of Fame of the best individuals that lived in the population
   * Checkpoints that take snapshots of a system regularly
   * Benchmarks module containing most common test functions
-  * Genealogy of an evolution (that is compatible with [NetworkX](http://networkx.lanl.gov))
+  * Genealogy of an evolution (that is compatible with [NetworkX](https://github.com/networkx/networkx))
   * Examples of alternative algorithms : Particle Swarm Optimization, Differential Evolution, Estimation of Distribution Algorithm
 
 ## Downloads
@@ -34,10 +34,10 @@ See the [DEAP User's Guide](http://deap.readthedocs.org/) for DEAP documentation
 In order to get the tip documentation, change directory to the `doc` subfolder and type in `make html`, the documentation will be under `_build/html`. You will need [Sphinx](http://sphinx.pocoo.org) to build the documentation.
 
 ### Notebooks
-Also checkout our new [notebook examples](https://github.com/DEAP/notebooks). Using [IPython's](http://ipython.org/) notebook feature you'll be able to navigate and execute each block of code individually and tell what every line is doing. Either, look at the notebooks online using the notebook viewer links at the botom of the page or download the notebooks, navigate to the you download directory and run
+Also checkout our new [notebook examples](https://github.com/DEAP/notebooks). Using [Jupyter notebooks](http://jupyter.org)  you'll be able to navigate and execute each block of code individually and tell what every line is doing. Either, look at the notebooks online using the notebook viewer links at the botom of the page or download the notebooks, navigate to the you download directory and run
 
 ```bash
-ipython notebook --pylab inline
+jupyter notebook
 ```
 
 ## Installation
